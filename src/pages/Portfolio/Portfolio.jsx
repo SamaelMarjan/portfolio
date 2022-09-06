@@ -1,7 +1,7 @@
 import React from "react";
 
 import './portfolio.css';
-import Data from '../../components/config/data';
+import data from '../../components/config/data';
 import { Link } from "react-router-dom";
 
 export default function Portfolio () {
@@ -12,7 +12,7 @@ export default function Portfolio () {
             <div className="projects">
                 <div className="projects_card">
                     {
-                        Data.map((data, key) => (
+                        data.map((data, key) => (
                             <div className="pr_c" key={key}>
                                 <img src={data.img} alt={data.alt} />
                                 <p>{data.desc}</p>
