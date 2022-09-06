@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import {FaLinkedinIn, FaGithub, FaTwitter} from 'react-icons/fa';
-import {MdOutlineLightMode} from 'react-icons/md'
+import {VscColorMode} from 'react-icons/vsc'
 
 import './header.css';
 
@@ -42,7 +42,7 @@ export default function Header () {
                         </div>
                         <div className="mode">
                             <p onClick={toggleTheme}>
-                                <MdOutlineLightMode />
+                                <VscColorMode />
                             </p>
                         </div>
                     </div>
