@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 80px;
+}
+
+.head {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head_link {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    display: flex;
+    gap: 2em;
+}
+
+.social {
+    display: flex;
+    gap: 2em;
+}
+
+.social_link {
+    display: flex;
+    gap: 1em;
+}

@@ -1,0 +1,16 @@
+.projects {
+    width: 100%;
+    height: 100%;
+}
+
+.p_c {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.p_cd {
+    background-color: aqua;
+    width: 100%;
+    height: 250px;
+}
