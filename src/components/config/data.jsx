@@ -7,6 +7,7 @@ const data = [
         desc: 'HTML',
         link: '#',
         target: 'target=”_blank”',
+        github: '#',
     },
     {
         id: 2,
