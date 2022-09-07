@@ -13,7 +13,7 @@ export default function Info () {
         if (info) {
             setInfo(info);
         }
-    },[]);
+    },[id]);
 
     return (
         <>
