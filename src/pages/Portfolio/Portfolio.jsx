@@ -15,9 +15,19 @@ export default function Portfolio () {
                         {
                             data.map((data, key) => (
                                 <div className="pr_c" key={key}>
-                                    <img src={data.img} alt={data.alt} />
-                                    <p>{data.desc}</p>
-                                    <Link to={`/info/${data.id}`}>View</Link>
+                                    <div className="pr_img">
+                                        <img src={data.img} alt={data.alt} />
+                                    </div>
+                                    <div className="pr_d">
+                                        <div className="pr_d_1">
+                                            <p>{data.desc}</p>
+                                        </div>
+                                        <div className="pr_d_2">
+                                            <Link to={`/info/${data.id}`}>View</Link>
+                                            <a href={data.link} target={data.target} >Live</a>
+                                            <a>githuub</a>
+                                        </div>
+                                    </div>
                                 </div>
                             ))
                         }

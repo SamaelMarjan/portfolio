@@ -25,7 +25,44 @@
 }
 
 .pr_c {
-    background-color: aqua;
     width: 100%;
     height: 350px;
+    border-radius: 15px;
+}
+
+.pr_img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pr_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.pr_d {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.pr_d_1 {
+    width: 50%;
+}
+
+.pr_d_1:hover {
+    background-color: orange;
+}
+
+.pr_d_2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pr_d_2:hover {
+    background-color: aqua;
 }

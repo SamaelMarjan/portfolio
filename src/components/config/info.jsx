@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import Data from './data';
+import './info.css';
 
 export default function Info () {
     const {id} = useParams();
@@ -12,13 +13,15 @@ export default function Info () {
         if (info) {
             setInfo(info);
         }
-    }, [id]);
+    },[]);
 
     return (
         <>
+        <div className="info">
+            <Link to='/projects'>Back</Link>
         {
             info ? (
-                <div className="info">
+                <div className="info_q">
                     <div className="set_info">
                         <img src={info.img} alt={info.alt} />
                         <p>{info.desc}</p>
@@ -26,7 +29,7 @@ export default function Info () {
                 </div>
             ) : (null)
         }
-        <Link to='/projects'>Back</Link>
+        </div>
         </>
     );
 }
