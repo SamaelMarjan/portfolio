@@ -2,7 +2,7 @@
 const data = [
     {
         id: 1,
-        img: '/images/swapno.png',
+        img: '#',
         alt: 'skills',
         desc: 'HTML',
         link: '#',
