@@ -17,6 +17,7 @@ export default function Portfolio () {
                                 <div className="pr_c" key={key}>
                                     <div className="pr_img">
                                         <img src={data.img} alt={data.alt} />
+                                        <p>{data.p}</p>
                                     </div>
                                     <div className="pr_d">
                                         <div className="pr_d_1">
@@ -25,7 +26,7 @@ export default function Portfolio () {
                                         <div className="pr_d_2">
                                             <Link to={`/info/${data.id}`}>View</Link>
                                             <a href={data.link} target={data.target} >Live</a>
-                                            <a href={data.github}>githuub</a>
+                                            <a href={data.github} target={data.target}>githuub</a>
                                         </div>
                                     </div>
                                 </div>
