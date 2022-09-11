@@ -1,6 +1,16 @@
 
 const data = [
     {
+        id: 13,
+        img: '#',
+        alt: 'skills',
+        desc: 'HTML',
+        link: 'https://sams-todo.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/toDo',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
         id: 1,
         img: '/images/swapno.png',
         alt: 'skills',
