@@ -13,7 +13,7 @@ export default function Resume () {
                     <img src={cv1} alt='one' />
                 </div>
                 <div className="res_im">
-                    <img src={cv2} alt='two' />
+                    <img src={cv2} alt='two'/>
                 </div>
             </div>
 
