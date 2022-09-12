@@ -2,7 +2,7 @@
 const data = [
     {
         id: 13,
-        img: '#',
+        img: '/images/todo.png',
         alt: 'skills',
         desc: 'HTML',
         link: 'https://sams-todo.netlify.app/',
