@@ -33,13 +33,13 @@
 .pr_img {
     width: 100%;
     height: 60%;
-    object-fit: cover;
     border-radius: 5px;
 }
 
 .pr_img img {
     width: 100%;
     height: 90%;
+    object-fit: cover;
 }
 
 .pr_d {

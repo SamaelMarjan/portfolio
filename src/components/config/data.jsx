@@ -11,6 +11,16 @@ const data = [
         p: 'under construction but you can see the live work',
     },
     {
+        id: 14,
+        img: '/images/besteats.png',
+        alt: 'skills',
+        desc: 'HTML',
+        link: 'https://besteat.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/res',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
         id: 1,
         img: '/images/swapno.png',
         alt: 'skills',
