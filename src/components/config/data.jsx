@@ -1,16 +1,6 @@
 
 const data = [
     {
-        id: 13,
-        img: '/images/todo.png',
-        alt: 'skills',
-        desc: 'React',
-        link: 'https://sams-todo.netlify.app/',
-        github: 'https://github.com/SamaelMarjan/toDo',
-        target: 'target=”_blank”',
-        p: 'under construction but you can see the live work',
-    },
-    {
         id: 14,
         img: '/images/besteats.png',
         alt: 'skills',
@@ -27,6 +17,26 @@ const data = [
         desc: 'React',
         link: 'https://nnetflixx.netlify.app/',
         github: 'https://github.com/SamaelMarjan/netflixClone',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
+        id: 16,
+        img: '/images/digi.png',
+        alt: 'skills',
+        desc: 'HTML, Tailwind CSS, React',
+        link: 'https://landing001.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/landing01',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
+        id: 13,
+        img: '/images/todo.png',
+        alt: 'skills',
+        desc: 'React',
+        link: 'https://sams-todo.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/toDo',
         target: 'target=”_blank”',
         p: 'under construction but you can see the live work',
     },

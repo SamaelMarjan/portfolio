@@ -18,7 +18,7 @@ export default function Resume () {
             </div>
 
             <div className="resume_button">
-                <a className="r_b" href="https://drive.google.com/file/d/1vtdw0zD8d8cppGYSAc-TcQ1qao5K-FRi/view?usp=sharing" target='_blank' rel="noreferrer" >View/Download</a>
+                <a className="r_b" href="https://drive.google.com/file/d/1Ynlp94iHX2jIWkjULxXqp9A5nLzQzU_D/view?usp=sharing" target='_blank' rel="noreferrer" >View/Download</a>
             </div>
         </div>
         </>
