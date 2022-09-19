@@ -18,7 +18,7 @@ export default function About () {
                         </strong>
                     </h1>
                     <p className="dev">front-end dev</p>
-                    <p className="desc">I'm a software developer who creates open-source projects. I like accordions, board games, and stand-up comedy. This is my digital garden. If you have any trouble understanding these tutorials or getting them running, please feel to reach out to me!</p>
+                    <p className="desc">Hello!, I am a Front-end developer. I have good skills in web programming languages, such as HTML, CSS, and JavaScript, which is what make me a strong candidate for this position. In addition to web programming languages, I also have good knowledge in using technologies like React JS or Node JS because of my computer science education</p>
                 </div>
                 <div className="about_img">
                     <img src={Img} alt='samael' />
