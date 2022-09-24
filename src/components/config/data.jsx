@@ -31,6 +31,16 @@ const data = [
         p: 'under construction but you can see the live work',
     },
     {
+        id: 6,
+        img: '/images/engine.png',
+        alt: 'skills',
+        desc: 'Tailwind',
+        link: 'https://enginereact.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/engine_react',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
         id: 13,
         img: '/images/todo.png',
         alt: 'skills',
@@ -90,16 +100,7 @@ const data = [
         target: 'target=”_blank”',
         p: 'under construction but you can see the live work',
     },
-    {
-        id: 6,
-        img: '#',
-        alt: 'skills',
-        desc: 'Tailwind',
-        link: '',
-        github: '',
-        target: 'target=”_blank”',
-        p: 'under construction but you can see the live work',
-    },
+    
     {
         id: 7,
         img: '#',
