@@ -41,6 +41,16 @@ const data = [
         p: 'under construction but you can see the live work',
     },
     {
+        id: 7,
+        img: '/images/blog.png',
+        alt: 'skills',
+        desc: 'TailwindCss',
+        link: 'https://bloggss.netlify.app/',
+        github: 'https://github.com/SamaelMarjan/blog',
+        target: 'target=”_blank”',
+        p: 'under construction but you can see the live work',
+    },
+    {
         id: 13,
         img: '/images/todo.png',
         alt: 'skills',
@@ -101,16 +111,7 @@ const data = [
         p: 'under construction but you can see the live work',
     },
     
-    {
-        id: 7,
-        img: '#',
-        alt: 'skills',
-        desc: 'MaterialUI',
-        link: '',
-        github: '',
-        target: 'target=”_blank”',
-        p: 'under construction but you can see the live work',
-    },
+    
     {
         id: 8,
         img: '#',
