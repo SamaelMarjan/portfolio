@@ -6,7 +6,10 @@ export default function Contact () {
     return (
         <>
         <div className="contact">
-            <h1>Contact</h1>
+            <div className="con_t">
+                <h1>Contact</h1>
+                <a href="mailto:ssamaelmarjan@gmail.com" >Email me</a>
+            </div>
         </div>
         </>
     );
